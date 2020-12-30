@@ -6,6 +6,7 @@ node_selection=$(whiptail --title "Node-RED nodes" --checklist --separate-output
 	"Use the [SPACEBAR] to select the nodes you want preinstalled" 20 78 12 -- \
 	"node-red-node-pi-gpiod" " " "ON" \
 	"node-red-dashboard" " " "ON" \
+	"node-red-contrib-modbus" " " "ON" \
 	"node-red-node-openweathermap" " " "OFF" \
 	"node-red-node-google" " " "OFF" \
 	"node-red-node-emoncms" " " "OFF" \
